@@ -100,4 +100,3 @@ clock = 9,30,0
 (h, m, s) = clock
 print(f"clock: {clock}")
 print(f"{h}h:{m}m:{s}s")
-print(f"") # Empty line
