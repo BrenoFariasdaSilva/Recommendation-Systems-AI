@@ -56,7 +56,7 @@ Please feel free to contribute and send any suggestions.
 
 	* Using ShellScript:
 		```bash
-		cd Python
+		cd Recommendation-Systems-AI
 		chmod +x install.sh
 		sudo ./install.sh
 		```
