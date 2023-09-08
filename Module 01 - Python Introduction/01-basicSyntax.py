@@ -1,3 +1,5 @@
+print(f"BASIC PYTHON SYNTAX:")
+
 ## Print Statements:
 print(f"PRINT STATEMENTS:")
 print(f"Hello World!") # Strings can be used with double quotes
