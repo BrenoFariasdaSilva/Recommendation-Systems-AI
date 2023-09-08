@@ -37,3 +37,23 @@ print(f"list1: {list1}")
 
 print(f"list1_reference: {list1_reference}")
 print(f"list1_reference is list1: {list1_reference is list1}")
+
+# List Indexes
+print(f"list1.index(1): {list1.index(1)}")
+print(f"list1.index(5): {list1.index(5)}")
+
+# list.index(element, start, end)
+# Find the index of the element 4 between index 2 and 5
+print(f"list1.index(4, 2, 5): {list1.index(4, 2, 5)}")
+
+# Min and Max
+print(f"min(list1): {min(list1)}")
+print(f"max(list1): {max(list1)}")
+
+# Count
+list1 += [1, 1, 1, 1]
+print(f"list1.count(1): {list1.count(1)}")
+
+# Append
+list1.append(11)
+print(f"list1: {list1}")
