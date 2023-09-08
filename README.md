@@ -34,7 +34,7 @@ Please feel free to contribute and send any suggestions.
 - [Recommendation-Systems-AI. ](#recommendation-systems-ai-)
 	- [Table of Contents](#table-of-contents)
 	- [Installation:](#installation)
-	- [Run Python code:](#run-python-code)
+	- [Run Python Code:](#run-python-code)
 	- [Contributing](#contributing)
 	- [License](#license)
 
@@ -62,7 +62,7 @@ Please feel free to contribute and send any suggestions.
 		sudo ./install.sh
 		```
 
-## Run Python code:
+## Run Python Code:
 ```bash
 python3 ./{ProgramName}.py
 # Example: python3 ./main.py 
