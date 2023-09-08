@@ -1,1 +1,1 @@
-# module/__init__.py
+# my_module/__init__.py
