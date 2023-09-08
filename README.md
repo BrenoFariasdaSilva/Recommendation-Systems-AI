@@ -29,3 +29,8 @@ Please feel free to contribute and send any suggestions.
 ![RepoBeats Statistics](https://repobeats.axiom.co/api/embed/17c40a5749ef0d24c71b806fafb4ddd7323fef88.svg "Repobeats analytics image")
 
 </div>
+
+## Table of Contents
+- [Recommendation-Systems-AI. ](#recommendation-systems-ai-)
+	- [Table of Contents](#table-of-contents)
+
