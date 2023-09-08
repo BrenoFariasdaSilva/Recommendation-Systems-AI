@@ -65,23 +65,23 @@ set3 = set1.copy()
 
 # add() - Adds an element to the set
 set1.add(6)
-print(f"set1: {set1}")
+print(f"set1.add(6): {set1}")
 
 # remove() - Removes an element from the set. If the element is not a member, raises a KeyError
 set1.remove(6)
-print(f"set1: {set1}")
+print(f"set1.remove(6): {set1}")
 
 # discard() - Removes an element from the set if it is a member. If the element is not a member, does nothing
 set1.discard(6)
-print(f"set1: {set1}")
+print(f"set1.discard(6): {set1}")
 
 # pop() - Removes and returns an arbitrary set element. Raises KeyError if the set is empty
-set1.pop()
-print(f"set1: {set1}")
+element = set1.pop()
+print(f"element = set1.pop(): {set1}, element: {element}")
 
 # clear() - Removes all elements from the set
 set1.clear()
-print(f"set1: {set1}")
+print(f"set1.clear(): {set1}")
 print(f"") # Empty line
 
 # Mutale Sets Methods - update(), intersection_update(), difference_update(), symmetric_difference_update()	
