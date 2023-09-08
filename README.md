@@ -33,4 +33,39 @@ Please feel free to contribute and send any suggestions.
 ## Table of Contents
 - [Recommendation-Systems-AI. ](#recommendation-systems-ai-)
 	- [Table of Contents](#table-of-contents)
+	- [Installation:](#installation)
+	- [Run Python code:](#run-python-code)
+	- [Contributing](#contributing)
 
+
+## Installation:
+* Python Language:
+
+	* Manually:
+		```bash
+		# Python:
+		sudo apt-get install python3 python3-venv python3-pip -y
+		# sudo apt install python-is-python3
+		
+		# Jupyter using Pip
+		pip install jupyterlab
+		pip install notebook
+		pip install ipykernel
+		# Launch: jupyter-lab or jupyter notebook in terminal
+		```
+
+	* Using ShellScript:
+		```bash
+		cd Python
+		chmod +x install.sh
+		sudo ./install.sh
+		```
+
+## Run Python code:
+```bash
+python3 ./{ProgramName}.py
+# Example: python3 ./main.py 
+```
+
+## Contributing
+Code improvement recommendations are very welcome, but keep in mind that many exercises will be very simple, with a lot of room for improvement, after all here is all the history of my learning progress in the field of Artificial Intelligence, mainly focused on Recommendation Systems.
