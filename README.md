@@ -36,6 +36,7 @@ Please feel free to contribute and send any suggestions.
 	- [Installation:](#installation)
 	- [Run Python code:](#run-python-code)
 	- [Contributing](#contributing)
+	- [License](#license)
 
 
 ## Installation:
@@ -69,3 +70,6 @@ python3 ./{ProgramName}.py
 
 ## Contributing
 Code improvement recommendations are very welcome, but keep in mind that many exercises will be very simple, with a lot of room for improvement, after all here is all the history of my learning progress in the field of Artificial Intelligence, mainly focused on Recommendation Systems.
+
+## License
+This project is licensed under the [Creative Commons Zero v1.0 Universal](LICENSE), which means you are free to use, modify, and distribute the code. See the [LICENSE](LICENSE) file for more details.
