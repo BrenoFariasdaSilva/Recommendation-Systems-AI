@@ -1,5 +1,3 @@
-# Run: pip install module
-
 import my_module.my_module as module # Import the module
 
 def main():

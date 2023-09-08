@@ -1,4 +1,4 @@
-## FUNCTIONS:
+# FUNCTIONS:
 print(f"FUNCTIONS:")
 
 ## Function Definition:

@@ -1,4 +1,4 @@
-## Conditional Statements
+# Conditional Statements:
 print(f"CONDITIONAL STATEMENTS:")
 
 ## If Statements:

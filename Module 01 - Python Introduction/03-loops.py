@@ -1,4 +1,4 @@
-## Loops Statements
+# Loops Statements:
 print(f"LOOPS STATEMENTS:")
 
 ## While Loops:

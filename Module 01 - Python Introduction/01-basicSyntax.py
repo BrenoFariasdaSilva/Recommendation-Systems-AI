@@ -1,3 +1,4 @@
+# Basic Python Syntax:
 print(f"BASIC PYTHON SYNTAX:")
 
 ## Print Statements:
