@@ -23,3 +23,9 @@ Please feel free to contribute and send any suggestions.
 ![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Recommendation-Systems-AI.svg)
 
 </div>
+
+<div align="center">
+  
+![RepoBeats Statistics](https://repobeats.axiom.co/api/embed/17c40a5749ef0d24c71b806fafb4ddd7323fef88.svg "Repobeats analytics image")
+
+</div>
