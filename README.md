@@ -57,7 +57,7 @@ Please feel free to contribute and send any suggestions.
 	* Using ShellScript:
 		```bash
 		cd Recommendation-Systems-AI
-		chmod +x install.sh
+		chmod +x ./install.sh
 		sudo ./install.sh
 		```
 
