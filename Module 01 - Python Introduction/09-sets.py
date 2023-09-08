@@ -1,4 +1,4 @@
-# Dictionaries are unordered collections of data in key:value pairs
+# Dictionarioes are unordered collections of data in key:value pairs
 # Dictionaries are mutable and the keys must be unique
 # You can have the value of a key be a list, tuple, or another dictionary
 
