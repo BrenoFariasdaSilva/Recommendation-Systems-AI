@@ -8,7 +8,7 @@
   
 ---
 
-My Artificial Intelligence Codes focused on Recommendation Systems. \
+My Artificial Intelligence Codes focused on Recommendation Systems provided by COMAIS Lab of UTF-Palmas. \
 Please feel free to contribute and send any suggestions.
   
 ---
