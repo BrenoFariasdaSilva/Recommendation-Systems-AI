@@ -53,6 +53,12 @@ Please feel free to contribute and send any suggestions.
 		pip install notebook
 		pip install ipykernel
 		# Launch: jupyter-lab or jupyter notebook in terminal
+
+		# Install Pip Libraries:
+		pip install numpy
+		pip install pandas
+		pip install requests
+		pip install lxml
 		```
 
 	* Using ShellScript:
