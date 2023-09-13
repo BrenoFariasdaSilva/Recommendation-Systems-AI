@@ -20,6 +20,9 @@ class Character:
 	def walk(self):
 		print(f"{self._name} is walking.")
 
+	def attack(self):
+		print(f"{self._name} is attacking.")
+
 class Warrior(Character):
 	def __init__(self, name: str, life: int, attack: float, strength: float):
 		self.__strength: float = strength
@@ -34,9 +37,12 @@ class Warrior(Character):
 
 	def __eq__(self, other):
 		return f"Warrior(Name: {self._name})" == f"Warrior(Name: {other._name})"
-
-	def attack(self):
+	
+	def sword_attack(self):
 		print(f"{self._name} is attacking with a sword.")
+
+	def attack(self): # Polimorfism of Character.attack() -  Override the attack method, as they have the same name, but different implementations.
+		self.sword_attack()
 
 class Magician(Character):
 	def __init__(self, name: str, life: int, attack: float, magic_power: float):
@@ -56,6 +62,9 @@ class Magician(Character):
 	def spell(self):
 		print(f"{self._name} is casting a spell.")
 
+	def attack(self): # Polimorfism of Character.attack() -  Override the attack method, as they have the same name, but different implementations.
+		return self.spell()
+
 def main():
 	warrior = Warrior("Breno Farias", 100, 10, 50)
 	print(warrior)
@@ -66,7 +75,7 @@ def main():
 	magician = Magician("Manoel Campos", 100, 10, 50)
 	print(magician)
 	magician.walk()
-	magician.spell()
+	magician.attack()
 	print(f"")
 
 	print(f"{warrior} == {magician}: {warrior == magician}")
