@@ -7,6 +7,9 @@ class Animal:
 	def __init__(self, name):
 		self._name = name
 
+	def __str__(self):
+		return f"The Animal Name is: {self._name}"
+
 	def __repr__(self):
 		return f"Animal(Name: {self._name})"
 	
@@ -25,6 +28,9 @@ class Dog(Animal):
 	def __init__(self, name, dog_breed): # Constructor -> __init__
 		self.__dog_breed = dog_breed # Private Attribute that has been created in the Dog class.
 		super().__init__(name) # Call the parent class constructor
+
+	def __str__(self): # Polimorfism of Animal.__str__() - Override the __str__ method, as they have the same name, but different implementations.
+		return f"The Dog Name is: {self._name}"
 
 	def __repr__(self): # Override the __repr__ method, as they have the same name, but different implementations.
 		return f"Dog(Name: {self._name}, Dog Breed: {self.__dog_breed})" # Return a string representation of the object.
@@ -47,6 +53,9 @@ class Cat(Animal):
 	def __init__(self, name): # Constructor -> __init__
 		super().__init__(name) # Call the parent class constructor
 
+	def __str__(self): # Polimorfism of Animal.__str__() - Override the __str__ method, as they have the same name, but different implementations.
+		return f"The Cat Name is: {self._name}"
+
 	def __repr__(self): # Override the __repr__ method, as they have the same name, but different implementations.
 		return f"Cat(Name: {self._name})" # Return a string representation of the object.
 	
@@ -63,12 +72,14 @@ def main():
 	animal = Animal("Animal") # Constructor -> __init__
 	animal.walk() # Animal is walking.
 	print(animal) # Animal(Name: Animal)
+	print(str(animal)) # Animal(Name: Animal)
 	print(f"")
 
 	dog = Dog("Dog", "Shih Tzu") # Constructor -> __init__
 	dog.walk() # Dog is walking.
 	dog.make_sound() # Dog is barking.
 	print(dog) # Dog(Name: Dog)
+	print(str(dog)) # Dog(Name: Dog)
 	dog_breed = dog.get_dog_breed()
 	print(f"Dog Breed: {dog_breed}.")
 	print(f"")
@@ -77,6 +88,7 @@ def main():
 	cat.walk() # Cat is walking.
 	cat.make_sound() # Cat is meowing.
 	print(cat) # Cat(Name: Cat)
+	print(str(cat)) # Cat(Name: Cat)
 	print(f"")
 
 	print(f"{animal} == {dog}: {animal == dog}") # False
