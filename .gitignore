@@ -162,5 +162,8 @@ cython_debug/
 # Mac
 .DS_Store
 
-# txt file
-*/04-files/*.txt
+# TXT File
+*/04-Files/*.txt
+
+# JSON File
+*/06-Pandas/*.json
