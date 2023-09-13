@@ -22,13 +22,6 @@ def main():
 	print(f"{backgroundColors.GREEN}Files in the current directory: {backgroundColors.CYAN}{os.listdir()}{Style.RESET_ALL}")
 
 	filename = "file.txt" # File name.
-	# Create file named "file.txt" in the current directory.
-	file = open(filename, "w")
-	file.write("Hello World!")
-
-	# Close the file.
-	file.close()
-
 	print("")
 
 	# Access the file. "os.access(path, mode)"
@@ -72,13 +65,29 @@ def main():
 	
 	current_directory = os.getcwd() # Get the current directory.
 	print(f"{backgroundColors.GREEN}os.path.join(current_directory, filename): {backgroundColors.CYAN}{os.path.join(current_directory, filename)}{Style.RESET_ALL}") # Join the paths.
-	print(f"{backgroundColors.GREEN}os.path.split(filename): {backgroundColors.CYAN}{os.path.split(filename)}{Style.RESET_ALL}") # Split the path.
+	print(f"{backgroundColors.GREEN}os.path.split(__file__): {backgroundColors.CYAN}{os.path.split(__file__)}{Style.RESET_ALL}") # Split the path.
 	print(f"{backgroundColors.GREEN}os.path.realpath(filename): {backgroundColors.CYAN}{os.path.realpath(filename)}{Style.RESET_ALL}") # Get the exact path (no symbolic links).
 	print(f"{backgroundColors.GREEN}os.path.splitext(filename): {backgroundColors.CYAN}{os.path.splitext(filename)}{Style.RESET_ALL}") # Split the extension from the path.
 	print(f"{backgroundColors.GREEN}os.path.normcase(filename): {backgroundColors.CYAN}{os.path.normcase(filename)}{Style.RESET_ALL}") # Normalize the case of the path.
 	print(f"{backgroundColors.GREEN}os.path.normpath(filename): {backgroundColors.CYAN}{os.path.normpath(filename)}{Style.RESET_ALL}") # Normalize the path.
 	print(f"{backgroundColors.GREEN}os.path.abspath(filename): {backgroundColors.CYAN}{os.path.abspath(filename)}{Style.RESET_ALL}") # Get the absolute path.
+	print(f"")
 
+	# Create file named "file.txt" in the current directory, if it doesn't exist.
+	file = open(filename, "w") # Open the file in write mode.
+	file.write(f"Hello World!\n") # Write to the file.
+	for i in range(10):
+		file.write(f"{i} ")
+	file.close() # Close the file.
+
+	# Read the file content.
+	file = open(filename, "r") # Open the file in read mode.
+	print(f"{backgroundColors.GREEN}file.read(): \n{backgroundColors.CYAN}{file.read()}{Style.RESET_ALL}") # Read the file.
+	print(f"")
+
+	# Read the an specific line of the file.
+	file = open(filename, "r") # Open the file in read mode.
+	print(f"{backgroundColors.GREEN}file.readlines()[2]: {backgroundColors.CYAN}{file.readlines()[1]}{Style.RESET_ALL}") # Read the second line of the file.
 
 if __name__ == "__main__":
 	main()
