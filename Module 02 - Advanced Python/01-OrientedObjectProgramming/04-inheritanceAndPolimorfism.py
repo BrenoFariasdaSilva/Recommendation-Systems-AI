@@ -16,6 +16,9 @@ class Animal:
 	def walk(self):
 		print(f"{self._name} is walking.")
 
+	def make_sound(self):
+		print(f"{self._name} is making a sound.")
+
 # The Dog class is the child class of Animal.
 # The Dog class inherits all the attributes and methods from the Animal class, like: __init__(), __repr__(), __eq__(), walk().
 class Dog(Animal):
@@ -31,6 +34,9 @@ class Dog(Animal):
 	
 	def bark(self): # New Method, specific to the Dog class.
 		print(f"{self._name} is barking.") # Print a message to the console.
+
+	def make_sound(self): # Polimorfism of Animal.make_sount() -  Override the make_sound method, as they have the same name, but different implementations.
+		self.bark() # Call the bark method.
 
 	def get_dog_breed(self):
 		return self.__dog_breed
@@ -50,6 +56,9 @@ class Cat(Animal):
 	def meow(self): # New Method, specific to the Cat class.
 		print(f"{self._name} is meowing.") # Print a message to the console
 
+	def make_sound(self): # Polimorfism of Animal.make_sount() - Override the make_sound method, as they have the same name, but different implementations
+		self.meow() # Call the meow method.
+
 def main():
 	animal = Animal("Animal") # Constructor -> __init__
 	animal.walk() # Animal is walking.
@@ -58,7 +67,7 @@ def main():
 
 	dog = Dog("Dog", "Shih Tzu") # Constructor -> __init__
 	dog.walk() # Dog is walking.
-	dog.bark() # Dog is barking.
+	dog.make_sound() # Dog is barking.
 	print(dog) # Dog(Name: Dog)
 	dog_breed = dog.get_dog_breed()
 	print(f"Dog Breed: {dog_breed}.")
@@ -66,7 +75,7 @@ def main():
 
 	cat = Cat("Cat") # Constructor -> __init__
 	cat.walk() # Cat is walking.
-	cat.meow() # Cat is meowing.
+	cat.make_sound() # Cat is meowing.
 	print(cat) # Cat(Name: Cat)
 	print(f"")
 
