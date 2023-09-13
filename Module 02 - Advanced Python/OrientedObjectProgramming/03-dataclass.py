@@ -3,6 +3,10 @@
 
 from dataclasses import dataclass
 
+# @dataclass decorator automatically generates special methods for you, like __init__(), __repr__(), __eq__(), and more.
+# The attributed using the dataclass are public by default, but you can make them private by adding a double underscore
+# before the attribute name and implementing getters and setters.
+
 @dataclass
 class Person:
 	name: str
