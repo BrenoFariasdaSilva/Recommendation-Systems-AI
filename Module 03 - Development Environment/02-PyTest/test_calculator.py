@@ -3,7 +3,7 @@
 # The type of tests it supports are: Unit, Functional and Integration.
 
 # Install PyTest
-from main import *
+from calculator import *
 
 # Test Calculator functions
 def test_sum():

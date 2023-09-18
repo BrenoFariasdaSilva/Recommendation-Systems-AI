@@ -1,4 +1,4 @@
-# PyTest -> clear; pytest ./main.py
+# PyTest:
 # PyTest is a testing framework that allows us to write test codes using python.
 # The type of tests it supports are: Unit, Functional and Integration.
 
