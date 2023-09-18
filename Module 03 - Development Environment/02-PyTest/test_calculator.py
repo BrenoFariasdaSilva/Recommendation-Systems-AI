@@ -11,12 +11,17 @@ from calculator import *
 # Test Calculator functions
 def test_sum():
 	assert sum(3, 4) == 7
+	assert sum(4, 3) == 7
 
 def test_subtraction():
 	assert subtraction(3, 4) == -1
+	assert subtraction(4, 3) == 1
 
 def test_multiplication():
 	assert multiplication(3, 4) == 12
+	assert multiplication(4, 3) == 12
 
 def test_division():
 	assert division(3, 4) == 0.75
+	assert division(3, 3) == 1.0
+	assert division(3, 2) == 1.5
