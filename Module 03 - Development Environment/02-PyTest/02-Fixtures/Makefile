@@ -1,11 +1,11 @@
 dependencies:
-	pip install -r requirements.txt
+	pip install pytest
 
 pytest:
-	pytest ./test_calculator.py
+	pytest ./test_product.py
 
 verbose:
-	pytest -v ./test_calculator.py
+	pytest -v ./test_product.py
 
 everything:
 	pytest -v
