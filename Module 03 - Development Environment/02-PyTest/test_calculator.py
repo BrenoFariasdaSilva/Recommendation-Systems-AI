@@ -2,6 +2,9 @@
 # PyTest is a testing framework that allows us to write test codes using python.
 # The type of tests it supports are: Unit, Functional and Integration.
 
+# To create a test, we need to create a function that starts with the word test_.
+# The function must contain at one assert statement, which is used to compare the expected and actual results.
+
 # Install PyTest
 from calculator import *
 
