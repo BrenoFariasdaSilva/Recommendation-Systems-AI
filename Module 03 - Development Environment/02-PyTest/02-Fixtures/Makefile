@@ -9,9 +9,3 @@ verbose:
 
 everything:
 	pytest -v
-
-fast_mark:
-	pytest -v -m fast
-
-slow_mark:
-	pytest -v -m slow
