@@ -10,6 +10,8 @@ class backgroundColors: # Colors for the terminal
 	GREEN = "\033[92m" # Green
 	YELLOW = "\033[93m" # Yellow
 	RED = "\033[91m" # Red
+	BOLD = "\033[1m" # Bold
+	UNDERLINE = "\033[4m" # Underline
 	CLEAR_TERMINAL = "\033[H\033[J" # Clear the terminal
 
 def main():
@@ -74,5 +76,6 @@ def main():
 	test=re.compile("alunos") # Compile the pattern.
 	print(f"{backgroundColors.GREEN}test.sub('estudantes', 'Os alunos estão estudando'): {backgroundColors.CYAN}{test.sub('estudantes', 'Os alunos estão estudando')}{Style.RESET_ALL}")
 
-if __name__ == "__main__":
-	main()
+# This is the standard boilerplate that calls the main() function.
+if __name__ == '__main__':
+	main() # Call the main() function

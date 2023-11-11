@@ -8,11 +8,13 @@ from colorama import Style  # For coloring the terminal.
 
 
 class backgroundColors:  # Colors for the terminal
-    CYAN = "\033[96m"  # Cyan
-    GREEN = "\033[92m"  # Green
-    YELLOW = "\033[93m"  # Yellow
-    RED = "\033[91m"  # Red
-    CLEAR_TERMINAL = "\033[H\033[J"  # Clear the terminal
+    CYAN = "\033[96m" # Cyan
+	GREEN = "\033[92m" # Green
+	YELLOW = "\033[93m" # Yellow
+	RED = "\033[91m" # Red
+	BOLD = "\033[1m" # Bold
+	UNDERLINE = "\033[4m" # Underline
+	CLEAR_TERMINAL = "\033[H\033[J" # Clear the terminal
 
 # Relative path to the current directory is the path to the current directory relative to the current directory.
 # Absolute path to the current directory is the path to the current directory relative to the root directory.
@@ -113,5 +115,7 @@ def main():
         f"{backgroundColors.GREEN}file.readlines()[2]: {backgroundColors.CYAN}{file.readlines()[1]}{Style.RESET_ALL}")
 
 
-if __name__ == "__main__":
-    main()
+# This is the standard boilerplate that calls the main() function.
+if __name__ == '__main__':
+	main() # Call the main() function
+
