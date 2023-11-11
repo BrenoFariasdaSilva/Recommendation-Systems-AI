@@ -5,7 +5,7 @@ import re  # Regular Expressions Module
 from colorama import Style  # For coloring the terminal
 
 # Macros:
-class backgroundColors:  # Colors for the terminal
+class BackgroundColors:  # Colors for the terminal
    CYAN = "\033[96m"  # Cyan
    GREEN = "\033[92m"  # Green
    YELLOW = "\033[93m"  # Yellow
@@ -24,9 +24,9 @@ def main():
       result = standard_cpf.findall(cpf)
       print(f"result: {result}")
       if result:
-         print(f"{backgroundColors.GREEN}CPF: {backgroundColors.CYAN}{cpf}{backgroundColors.GREEN} is valid.{Style.RESET_ALL}")
+         print(f"{BackgroundColors.GREEN}CPF: {BackgroundColors.CYAN}{cpf}{BackgroundColors.GREEN} is valid.{Style.RESET_ALL}")
       else:
-         print(f"{backgroundColors.RED}CPF: {backgroundColors.CYAN}{cpf}{backgroundColors.RED} is invalid.{Style.RESET_ALL}")
+         print(f"{BackgroundColors.RED}CPF: {BackgroundColors.CYAN}{cpf}{BackgroundColors.RED} is invalid.{Style.RESET_ALL}")
       print("")
 
 # This is the standard boilerplate that calls the main() function.
