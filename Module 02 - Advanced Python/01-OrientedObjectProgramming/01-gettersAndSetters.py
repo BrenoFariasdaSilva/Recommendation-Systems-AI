@@ -40,5 +40,6 @@ def main():
 	print(other) # Person(Breno Farias) -> __repr__
 	print(me == other) # True -> __eq__
 
+# This is the standard boilerplate that calls the main() function.
 if __name__ == "__main__":
-	main()
+	main() # Call the main function

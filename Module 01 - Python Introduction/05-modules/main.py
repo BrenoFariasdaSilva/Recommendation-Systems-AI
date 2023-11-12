@@ -5,5 +5,6 @@ def main():
 	sum_result = module.sum(a, b) # Call the sum function from the module
 	print(f"sum({a}, {b}): {sum_result}")
 
+# This is the standard boilerplate that calls the main() function.
 if __name__ == "__main__":
-	main()
+	main() # Call the main function

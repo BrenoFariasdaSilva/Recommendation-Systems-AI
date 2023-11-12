@@ -97,5 +97,6 @@ def main():
 	print(f"{dog} == {dog}: {dog == dog}") # True
 	print(f"{cat} == {cat}: {cat == cat}") # True
 
+# This is the standard boilerplate that calls the main() function.
 if __name__ == "__main__":
-	main()
+	main() # Call the main function

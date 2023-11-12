@@ -44,5 +44,6 @@ def main():
 
 	print(f"{me} == {other}: {me == other}") # True
 
+# This is the standard boilerplate that calls the main() function.
 if __name__ == "__main__":
-	main()
+	main() # Call the main function
