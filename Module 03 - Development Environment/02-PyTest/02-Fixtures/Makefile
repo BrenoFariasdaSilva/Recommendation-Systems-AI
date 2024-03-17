@@ -1,11 +1,27 @@
+# Name of the virtual environment directory
+VENV := venv
+# Python command to use
+PYTHON := python3
+
+.PHONY: all venv dependencies pytest verbose everything
+
+all: venv dependencies
+
+venv: $(VENV)/bin/activate
+
+$(VENV)/bin/activate:
+	$(PYTHON) -m venv $(VENV)
+	$(VENV)/bin/pip install --upgrade pip
+	touch $(VENV)/bin/activate
+
 dependencies:
-	pip install pytest
+	$(VENV)/bin/pip install pytest
 
 pytest:
-	pytest ./test_product.py
+	$(VENV)/bin/pytest ./test_product.py
 
 verbose:
-	pytest -v ./test_product.py
+	$(VENV)/bin/pytest -v ./test_product.py
 
 everything:
-	pytest -v
+	$(VENV)/bin/pytest -v

@@ -1,17 +1,33 @@
+# Name of the virtual environment directory
+VENV := venv
+# Python command to use
+PYTHON := python3
+
+.PHONY: all venv dependencies pytest verbose everything fast_mark slow_mark
+
+all: venv dependencies
+
+venv: $(VENV)/bin/activate
+
+$(VENV)/bin/activate:
+	$(PYTHON) -m venv $(VENV)
+	$(VENV)/bin/pip install --upgrade pip
+	touch $(VENV)/bin/activate
+
 dependencies:
-	pip install -r requirements.txt
+	$(VENV)/bin/pip install -r requirements.txt
 
 pytest:
-	pytest ./test_calculator.py
+	$(VENV)/bin/pytest ./test_calculator.py
 
 verbose:
-	pytest -v ./test_calculator.py
+	$(VENV)/bin/pytest -v ./test_calculator.py
 
 everything:
-	pytest -v
+	$(VENV)/bin/pytest -v
 
 fast_mark:
-	pytest -v -m fast
+	$(VENV)/bin/pytest -v -m fast
 
 slow_mark:
-	pytest -v -m slow
+	$(VENV)/bin/pytest -v -m slow
