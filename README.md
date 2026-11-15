@@ -25,10 +25,30 @@ Please feel free to contribute and send any suggestions.
 </div>
 
 <div align="center">
-  
-![RepoBeats Statistics](https://repobeats.axiom.co/api/embed/17c40a5749ef0d24c71b806fafb4ddd7323fef88.svg "Repobeats analytics image")
+
+![GitHub Code Size in Bytes](https://img.shields.io/github/languages/code-size/BrenoFariasdaSilva/Recommendation-Systems-AI)
+![GitHub Last Commit](https://img.shields.io/github/last-commit/BrenoFariasdaSilva/Recommendation-Systems-AI)
+![GitHub License](https://img.shields.io/github/license/BrenoFariasdaSilva/Recommendation-Systems-AI)
+![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Recommendation-Systems-AI.svg)
+[![GitHub Commits](https://img.shields.io/github/commit-activity/t/BrenoFariasdaSilva/Recommendation-Systems-AI/main)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI/commits/main)
+[![GitHub Forks](https://img.shields.io/github/forks/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI/network/members)
+![GitHub Language Count](https://img.shields.io/github/languages/count/BrenoFariasdaSilva/Recommendation-Systems-AI)
+[![GitHub Stars](https://img.shields.io/github/stars/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI/stargazers)
+[![GitHub Contributors](https://img.shields.io/github/contributors/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI/graphs/contributors)
+[![GitHub Created At](https://img.shields.io/github/created-at/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI)
+[![GitHub Repository Size](https://img.shields.io/github/repo-size/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI)
+[![Open Issues](https://img.shields.io/github/issues/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI/issues)
+[![Closed Issues](https://img.shields.io/github/issues-closed/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI/issues?q=is%3Aissue+is%3Aclosed)
+[![Open Pull Requests](https://img.shields.io/github/issues-pr/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI/pulls)
+[![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI/pulls?q=is%3Apr+is%3Aclosed)
+[![Monthly Commits](https://img.shields.io/github/commit-activity/m/BrenoFariasdaSilva/Recommendation-Systems-AI/main)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI/commits)
+[![Merged PRs](https://img.shields.io/github/issues-search/BrenoFariasdaSilva/Recommendation-Systems-AI?query=is%3Apr%20is%3Amerged&label=merged%20PRs&color=blue)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI/pulls?q=is%3Apr+is%3Amerged)
+![GitHub Primary Language](https://img.shields.io/badge/language-Jupyter%20Notebook-3b82f6)
+
+![Repobeats Statistics](https://repobeats.axiom.co/api/embed/17c40a5749ef0d24c71b806fafb4ddd7323fef88.svg)
 
 </div>
+
 
 ## Table of Contents
 - [Recommendation-Systems-AI. ](#recommendation-systems-ai-)
