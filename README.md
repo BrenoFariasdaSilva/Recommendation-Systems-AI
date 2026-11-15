@@ -27,7 +27,6 @@ Please feel free to contribute and send any suggestions.
 [![GitHub Stars](https://img.shields.io/github/stars/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI/stargazers)
 [![GitHub Contributors](https://img.shields.io/github/contributors/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI/graphs/contributors)
 [![GitHub Created At](https://img.shields.io/github/created-at/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI)
-[![GitHub Repository Size](https://img.shields.io/github/repo-size/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI)
 [![Open Issues](https://img.shields.io/github/issues/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI/issues)
 [![Closed Issues](https://img.shields.io/github/issues-closed/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI/issues?q=is%3Aissue+is%3Aclosed)
 [![Open Pull Requests](https://img.shields.io/github/issues-pr/BrenoFariasdaSilva/Recommendation-Systems-AI)](https://github.com/BrenoFariasdaSilva/Recommendation-Systems-AI/pulls)
